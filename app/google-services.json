@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "431083790307",
+    "firebase_url": "https://bookbase-fc7ba.firebaseio.com",
+    "project_id": "bookbase-fc7ba",
+    "storage_bucket": "bookbase-fc7ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431083790307:android:4b97220685f1c3131d4ad6",
+        "android_client_info": {
+          "package_name": "com.example.lendbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431083790307-kb1cu5nb4q9lk12e7arp07hgtf2tvd05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG0fz7Y-UlEdWtnauEY2PCSPQRdPHKwy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431083790307-kb1cu5nb4q9lk12e7arp07hgtf2tvd05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

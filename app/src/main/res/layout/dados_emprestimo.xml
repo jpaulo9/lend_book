@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp">
+
+<RelativeLayout
+    android:id="@+id/layt1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    >
+
+    <View
+        android:id="@+id/vie"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="#9A9A9A" />
+
+    <ImageView
+        android:id="@+id/imgSolicite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vie"
+        app:srcCompat="@drawable/ic_launcher_1_foreground" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgSolicite" />
+
+    <TextView
+        android:id="@+id/txtNomeUserEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView52"
+        android:layout_toRightOf="@id/imgSolicite"
+        android:text="NOME USUÁRIO SOLICITADOR"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtNomeLivroemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNomeUserEmp"
+        android:layout_toRightOf="@id/imgSolicite"
+        android:text="NOME DO LIVRO"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtNomeLivroemp"
+        android:layout_toRightOf="@id/imgSolicite"
+        android:text="STATUS DA SOLICITAÇÃO:"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_aceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtStatus"
+        android:layout_toRightOf="@id/imgSolicite"
+        android:background="@drawable/edit_botom_rad"
+        android:text="ACEITAR"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtStatus"
+        android:layout_toRightOf="@id/btn_aceitar" />
+
+    <Button
+        android:id="@+id/btn_recusar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtStatus"
+        android:layout_toRightOf="@id/textView54"
+        android:background="@drawable/edit_botom"
+        android:text="RECUSAR"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/btn_recusar" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textView55"
+        android:background="#9A9A9A" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

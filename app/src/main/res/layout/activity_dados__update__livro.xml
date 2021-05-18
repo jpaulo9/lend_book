@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dados_Update_Livro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                app:srcCompat="@drawable/ic_baseline_add_photo_alternate_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="EDITAR CAPA"
+                android:textColor="#FE3E3F" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/nomeLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Título do Livro"
+                android:inputType="textPersonName|text"
+                android:maxLength="50" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/autorLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Autor"
+                android:inputType="textPersonName|text"
+                android:maxLength="50" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ibsnLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ISBN"
+                android:inputType="number"
+                android:maxLength="10" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/pagLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Páginas"
+                android:inputType="number"
+                android:maxLength="5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/anoLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ano"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/editoraLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Editora"
+                android:inputType="textPersonName|text"
+                android:maxLength="50" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edicaoLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Edição"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/sinopseLivroUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Sinopse"
+                android:inputType="textPersonName|text"
+                android:maxLength="500" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnUpLivro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_botom"
+                android:text="ATUALIZAR"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/btn_volt_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableTop="@drawable/ic_baseline_chevron_left_24" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
